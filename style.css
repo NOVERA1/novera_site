@@ -2,43 +2,57 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #111;
-  color: #f0f0f0;
+  color: #fff;
   text-align: center;
-  padding: 2rem;
-  direction: rtl;
+  padding: 60px 20px;
 }
+
 h1 {
-  color: gold;
-  font-size: 2.5rem;
+  color: #ffc107;
+  margin-bottom: 10px;
 }
-h2 {
-  font-size: 1.5rem;
-  color: #ccc;
+
+p {
+  margin-bottom: 30px;
+  color: #ddd;
 }
-.features {
-  margin-top: 2rem;
-  text-align: right;
-}
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-.features li {
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
+
 .btn {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 1rem 2rem;
-  background-color: gold;
-  color: #111;
+  background-color: #ffc107;
+  color: #000;
+  padding: 12px 25px;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 6px;
   font-weight: bold;
 }
-footer {
-  margin-top: 3rem;
-  font-size: 0.9rem;
+
+.btn:hover {
+  background-color: #ffb300;
+}
+
+.lang-toggle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.lang-toggle a {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.links {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.links a {
   color: #aaa;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
